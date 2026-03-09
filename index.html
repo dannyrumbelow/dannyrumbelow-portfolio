@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Danny Rumbelow | First Assistant Director</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+
+*{box-sizing:border-box}
+
+body{
+margin:0;
+font-family:'Inter',sans-serif;
+background:#0b0b0b;
+color:#f5f5f5;
+line-height:1.6;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:22px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,0.55);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.logo{
+font-weight:600;
+letter-spacing:2px;
+font-size:14px;
+}
+
+nav a{
+color:#ddd;
+text-decoration:none;
+margin-left:28px;
+font-size:13px;
+letter-spacing:1px;
+transition:opacity .3s;
+}
+
+nav a:hover{
+opacity:.6
+}
+
+section{
+padding:120px 60px;
+max-width:1300px;
+margin:auto;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+.hero h1{
+font-size:64px;
+font-weight:600;
+margin:0 0 10px 0;
+letter-spacing:-1px;
+}
+
+.hero p{
+font-size:18px;
+color:#aaa;
+}
+
+h2{
+font-weight:500;
+margin-bottom:40px;
+font-size:28px;
+}
+
+.about{
+max-width:700px;
+color:#bbb;
+font-size:16px;
+}
+
+.work-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.project{
+position:relative;
+overflow:hidden;
+border-radius:8px;
+background:#111;
+transition:transform .4s ease;
+}
+
+.project:hover{
+transform:translateY(-6px);
+}
+
+.project img{
+width:100%;
+height:200px;
+object-fit:cover;
+opacity:.85;
+}
+
+.project-info{
+padding:18px;
+}
+
+.project-title{
+font-size:16px;
+margin:0 0 6px 0;
+}
+
+.project-role{
+font-size:13px;
+color:#888;
+}
+
+.cv-list{
+max-width:700px;
+color:#bbb;
+}
+
+.contact{
+max-width:500px;
+}
+
+.contact a{
+color:#fff;
+text-decoration:none;
+border-bottom:1px solid #555;
+}
+
+footer{
+padding:60px;
+text-align:center;
+color:#666;
+font-size:13px;
+}
+
+@media(max-width:700px){
+
+.hero h1{
+font-size:42px
+}
+
+header{
+padding:20px 30px
+}
+
+section{
+padding:100px 30px
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">DANNY RUMBELOW</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#work">Commercial / Music Video</a>
+<a href="#cv">CV</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<h1>Danny Rumbelow</h1>
+<p>First Assistant Director working across commercials, music videos and narrative film.</p>
+</section>
+
+<section id="about">
+<h2>About</h2>
+<p class="about">
+Danny Rumbelow is a London‑based First Assistant Director working across commercials, music videos and film. Experienced in managing complex productions, coordinating large crews and delivering ambitious creative work on schedule. Danny collaborates closely with directors and producers to bring cinematic projects to life.
+</p>
+</section>
+
+<section id="work">
+<h2>Commercial / Music Video</h2>
+
+<div class="work-grid">
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc" />
+<div class="project-info">
+<p class="project-title">Cat Burns – Into You</p>
+<p class="project-role">1st Assistant Director</p>
+</div>
+</div>
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" />
+<div class="project-info">
+<p class="project-title">KEYAH/BLU – Choker</p>
+<p class="project-role">1st Assistant Director</p>
+</div>
+</div>
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" />
+<div class="project-info">
+<p class="project-title">Joesef – Joe</p>
+<p class="project-role">1st Assistant Director</p>
+</div>
+</div>
+
+<div class="project">
+<img src="https://images.unsplash.com/photo-1517602302552-471fe67acf66" />
+<div class="project-info">
+<p class="project-title">Jords – Dirt In The Diamond</p>
+<p class="project-role">1st Assistant Director</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="cv">
+<h2>CV</h2>
+
+<div class="cv-list">
+<p>
+Selected credits across commercials and music videos. Full CV available upon request.
+</p>
+
+<p>
+• 1st Assistant Director – Commercials / Music Videos / Short Film
+</p>
+
+<p>
+Experience working with major production companies, directors and agencies across the UK and Europe.
+</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+
+<div class="contact">
+<p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+<p>Instagram: @dannyrumbelow</p>
+<p>London, United Kingdom</p>
+</div>
+
+</section>
+
+<footer>
+© Danny Rumbelow
+</footer>
+
+</body>
+</html>
